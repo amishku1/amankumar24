@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amish Kumar - Personal Website</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Main Content Section */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .content h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .content a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Amish Kumar's Personal Website</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <!-- About Me Section -->
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hello! I am <strong>Amish Kumar</strong>, a first-year MTech student in Computer Science and Engineering (CSE) at <strong>IIIT Guwahati</strong>. I am passionate about technology and programming, and I am excited to learn and grow in the field of computer science.</p>
+            <p>Currently, I am enrolled in the MTech CSE program (Session 2024-2026) and I am in my first semester. I am eager to explore the world of technology and contribute to innovative solutions.</p>
+        </div>
+
+        <!-- Academic Details Section -->
+        <div class="content">
+            <h2>Academic Details</h2>
+            <p><strong>Name:</strong> Amish Kumar</p>
+            <p><strong>Roll Number:</strong> 2402002</p>
+            <p><strong>College Name:</strong> IIIT Guwahati</p>
+            <p><strong>Session:</strong> 2024-2026</p>
+            <p><strong>Enrolled in:</strong> MTech CSE (Semester 1)</p>
+        </div>
+
+        <!-- Contact Information Section -->
+        <div class="content">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:aman.kumar24m@iiitg.ac.in">aman.kumar24m@iiitg.ac.in</a></p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Amish Kumar. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
